@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the color</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="top-area">
+    <h1>GUESS THE COLOR</h1> <br>
+    <h2>RGB CHALLENGE</h2><br>
+    <hr><hr><br>
+    <p id="rgb-color">RGB ( 0 , 0 , 0 ) </p>
+  </section>
+  <section id="menu-bar">
+    <button id="play-button" onclick = "startGame()">START GAME</button>
+  </section>
+  <section id="game-area">
+    <div class ='game-info'>
+      <p>Score : <span  id='score'>0</span></p>
+      <p>Chances Left : <span  id='guesses'>0</span></p>
+      <p>HIGH SCORE : <span  id='high-score'>0</span></p>
+    </div>  
+    <p id="emotion">&#x1F9D0</p>
+    <div id="options"></div>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    text-align:center;
+    background-image : linear-gradient(lightblue,lightgray);
+    height: 100vh;
+  }
+  #top-area{
+    height : 30vh;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+  }
+  #menu-bar{
+    height: 5vh;
+    margin: 3px 0 ;
+    background-color: whitesmoke;
+  }
+  #game-area{
+    height: 60vh;
+    background-color: rgb(94,111,157);
+    padding: 20px;
+  }
+  #rgb-color{
+    color:yellow;
+    font-family: fantasy;
+    font-size : 40px;
+    margin: 0;
+  }
+  #options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+    max-width: 300px;
+    height: 200px;
+    margin: auto;
+    font-family : cursive;
+  }
+  .option{
+    width: 80px;
+    height: 80px;
+    border-radius : 10px;
+    transition : 0.2s transform;
+  }
+  .option:hover{
+    transform: scale(1.1);
+  }
+  #play-button{
+    border: 0px;
+    font-size: 20px;
+    background-color: #5E6FDD;
+    height: 95%;
+    padding: 0 30px ;
+    color:white
+  }
+  #emotion{
+    font-size: 50px;
+  }
+  .game-info{
+    display: flex;
+    justify-content:space-between;
+    font-weight : bold;
+    color : skyblue;
+    font-family: cursive;
+    font-size : 20px;
+  }
+  #guesses {
+    color :red
+  }
+  #score {
+    color : black ;
+  }
+  #high-score{
+    color : lightgreen;
+  }
+  #options h1{
+    text-align: center;
+  }
